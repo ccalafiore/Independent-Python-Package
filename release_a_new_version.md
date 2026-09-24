@@ -18,11 +18,11 @@
    1. Install anaconda if you haven't;
    2. Create a conda environment with the below if you haven't:
       ```
-      conda create --name myenv
+      conda create --name indep python
       ```
    3. Activate the environment with:
       ```
-      conda activate myenv
+      conda activate indep
       ```
 
 6. Open Command Prompt as administrator and run the following commands:
@@ -43,17 +43,16 @@
       ```
    4. Close Command Prompt
 
-7. Uninstall Independent from the conda environment myenv:
+7. Uninstall Independent from any conda environment:
    ```
-   conda activate myenv
+   conda activate <env>
    python -m pip uninstall independent
    ```
    If they still exist, manually delete the 2 directories:
-   - directory\of\anaconda\envs\myenv\Lib\site-packages\independent
-   - directory\of\anaconda\envs\myenv\Lib\site-packages\independent-\*.\*.\*.\*.dist-info
+   - directory\of\anaconda\envs\<env>\Lib\site-packages\independent
+   - directory\of\anaconda\envs\<env>\Lib\site-packages\independent-\*.\*.\*.\*.dist-info
 
 8. Re-install Independent with:
    ```
    python -m pip install --upgrade independent
    ```
-
