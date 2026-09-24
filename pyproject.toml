@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "independent"
-version = "0.0.0.0"
+version = "0.0.0.1"
 dependencies = [
 ]
 requires-python = ">= 3.6"
@@ -17,7 +17,7 @@ maintainers = [
 description = "A basic Python package with no dependencies."
 readme = {file = "README.md", content-type = "text/markdown"}
 license = "MIT"
-license-files = ["LICENSE.txt"]
+license-files = ["LICENSE"]
 keywords = [
     "independent", "not dependent", "no dependencies", "no requirements",
     "basic", "general", "tools", "toolkit", "toolbox", "kit", "utilities"]
