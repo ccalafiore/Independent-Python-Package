@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "independent"
+version = "0.0.0.0"
+dependencies = [
+]
+requires-python = ">= 3.6"
+authors = [
+    {name = "Carmelo Calafiore", email = "dr.carmelo.calafiore@gmail.com"},
+]
+maintainers = [
+    {name = "Carmelo Calafiore", email = "dr.carmelo.calafiore@gmail.com"},
+]
+description = "A basic Python package with no dependencies."
+readme = {file = "README.md", content-type = "text/markdown"}
+license = "MIT"
+license-files = ["LICENSE.txt"]
+keywords = [
+    "independent", "not dependent", "no dependencies", "no requirements",
+    "basic", "general", "tools", "toolkit", "toolbox", "kit", "utilities"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/ccalafiore/Python-Package-Independent"
+Issues = "https://github.com/ccalafiore/Python-Package-Independent/issues"
